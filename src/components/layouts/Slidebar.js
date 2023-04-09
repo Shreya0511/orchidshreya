@@ -2,9 +2,9 @@ import React from 'react'
 import Slider  from 'react-slick'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { data } from '../Data/Data';
 import './Slidebar.module.css';
-import { data } from './Data';
-import './App.css';
+
 const Slidebar=()=> {
     const settings = {
         dots: true,
@@ -65,3 +65,4 @@ const Slidebar=()=> {
 }
 
 export default Slidebar
+

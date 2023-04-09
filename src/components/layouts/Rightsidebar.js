@@ -28,7 +28,7 @@ function Rightsidebar() {
 
   return (
     <div className = {classes.rightParent}>
-        <div className='top-[65%] left-10 text-xl font-bold text-white font-sans flex align-middle justify-center pb-4 bg-black'>WishList</div>
+        <div className='top-[65%] left-10 text-xl font-bold text-white font-sans flex align-middle justify-center pb-4 bg-black'>Watched</div>
        {slides.map((item) => {
              return <Wishlistiems title = {item.title} channel = "Melody" image = {item.url}/>
        })}
